@@ -20,7 +20,7 @@ window.addEventListener('DOMContentLoaded', () => {
   setTheme(savedDarkMode);
 
   // Load tools
-  fetch('tool.json')
+  fetch('https://cdn.jsdelivr.net/gh/Gjhjd/5@main/data/tool.json')
     .then(res => res.json())
     .then(data => {
       window.toolsData = data;
