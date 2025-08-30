@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const fetchTools = async () => {
         try {
             // Using a relative path for local testing, replace with CDN URL for deployment
-            const response = await fetch('tool.json'); // Assumes tool.json is in the same directory or accessible
+            const response = await fetch('https://cdn.jsdelivr.net/gh/Gjhjd/5@main/data/tool.json'); // Assumes tool.json is in the same directory or accessible
             // const response = await fetch('https://cdn.jsdelivr.net/gh/your-username/your-repo/tool.json'); // Example CDN URL
             allTools = await response.json();
             populateCategories();
