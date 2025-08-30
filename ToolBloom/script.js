@@ -1,5 +1,5 @@
 // Configuration
-        const JSON_URL = 'tool.json';
+        const JSON_URL = 'https://cdn.jsdelivr.net/gh/Gjhjd/5@main/data/tool.json';
         const CACHE_KEY = 'toolFinderData';
         const CACHE_TIMESTAMP_KEY = 'toolFinderTimestamp';
         const CACHE_EXPIRY = 24 * 60 * 60 * 1000; // 24 hours
